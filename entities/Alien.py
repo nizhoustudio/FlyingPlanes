@@ -17,7 +17,7 @@ class Alien:
         self.x += self.step
         if self.x > 736 or self.x < 0:
             self.step *= -1
-            self.y += random.randint(1, 4)
+            self.y += random.randint(20, 230)
 
     def reset(self):
         self.x = random.randint(100, 700)
