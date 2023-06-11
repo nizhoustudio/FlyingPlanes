@@ -55,8 +55,6 @@ if __name__ == "__main__":
         # 绘制背景
         screen.blit(bgImg, (0, 0))
 
-
-
         # 绘制飞机
         screen.blit(plane.img, (plane.x, plane.y))
 
